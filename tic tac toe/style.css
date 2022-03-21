@@ -1,0 +1,36 @@
+
+h1 {
+    text-align: center;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+.btn{
+   margin:2rem;
+}
+
+.tiles {
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+
+
+.tiles {
+    font-size: 80px;
+    color:rgb(49, 49, 143);
+	background: linear-gradient(45deg, rgba(194, 188, 209, 0.6) 0%, rgba(109, 219, 160, 0.7) 100%);
+    text-align: center;
+  }
